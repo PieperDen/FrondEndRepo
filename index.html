@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <link rel="stylesheet" href="StartCss.css">
+</head>
+<body>
+    <header>
+        <h1>Das Konto von Dennis</h1>
+    </header>
+    <main>
+        <h2>Aktueller Kontostand</h2>
+        <p>Hier steht ein bisschen Text über uns.</p>
+        <input type="text" id="Betragsfeld" placeholder="Betrag">
+        <button id="KontostandEinzahlen">Einzahlen</button>
+        <button id="KontostandAuszahlen">Auszahlen</button>
+        <button id="ZeigeAusgaben">Erstelle eien Graphik</button>
+        <p id="KontostandAnzeige">Ihr Kontostand: <strong>--</strong></p>
+        <p></p>
+        <img id="plotImage" alt="Diagramm wird geladen..." style="display:none;">
+    </main>
+    <footer>
+        <p>&copy; Bei Fragen oder Anmerkungen wenden Sie sich bitte an meine Freundin Fiona</p>
+    </footer>
+    <script src="/Logic/StartLogic.js"></script>
+</body>
+</html>
